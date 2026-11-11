@@ -92,12 +92,19 @@ Used Zenmap (Nmap GUI) to perform network discovery and identify live hosts, ope
 
 ### 1️⃣ W2-PM1 – Multiple Kali Tools
 ![Kali Terminal](nslookup.png)
+![Kali Terminal](dnsrecon.png)
+![Kali Terminal](whois.png)
+
 
 ### 3️⃣ W2-PM3 – Maltego
 ![Kali Terminal](maltigo.png)
 
+
+
 ### 4️⃣ W2-PM4 – theHarvester
 ![Kali Terminal](Harvester.png)
+
+
 ### 5️⃣ W2-PM5 – Zenmap
 ![Kali Terminal](zenmap.png)
 
