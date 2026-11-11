@@ -91,16 +91,13 @@ Used Zenmap (Nmap GUI) to perform network discovery and identify live hosts, ope
 ## 📸 Practical Screenshots
 
 ### 1️⃣ W2-PM1 – Multiple Kali Tools
-Add screenshots showing WHOIS, WhatWeb, NSLookup, CURL, Wafw00f, and DNSRecon results.
-
-### 2️⃣ W2-PM2 – GHDB Footprinting
-Add screenshots showing your GHDB search activity and observations.
+![Kali Terminal](nslookup.png)
 
 ### 3️⃣ W2-PM3 – Maltego
-Add your completed Maltego graph screenshot.
+![Kali Terminal](maltigo.png)
 
 ### 4️⃣ W2-PM4 – theHarvester
-![Kali Terminal](harvester 1.png)
+![Kali Terminal](harvester.png)
 ### 5️⃣ W2-PM5 – Zenmap
 ![Kali Terminal](zenmap.png)
 
