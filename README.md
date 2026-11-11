@@ -100,10 +100,9 @@ Add screenshots showing your GHDB search activity and observations.
 Add your completed Maltego graph screenshot.
 
 ### 4️⃣ W2-PM4 – theHarvester
-Add screenshots showing theHarvester commands and collected results.
-
+![Kali Terminal](harvester 1.png)
 ### 5️⃣ W2-PM5 – Zenmap
-Add your network scanning results and discovered hosts screenshot.
+![Kali Terminal](zenmap.png)
 
 ---
 
