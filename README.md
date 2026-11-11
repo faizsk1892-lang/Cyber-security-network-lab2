@@ -1,95 +1,140 @@
-# Networkwalks – Week 2: Footprinting & Network Scanning
+# 🔐 Networkwalks – Week 2 Cybersecurity Practical
 
-**Author:** Faizan Shaikh  
-**Program / Batch:** B082 – Networkwalks  
-**Date:** 11 November 2026
+<p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity-Week%2002-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Networkwalks-B084-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
 
-## Project Overview
+## 👨‍💻 Author Information
 
-This repository contains my Week 2 cybersecurity practical activities completed as part of the Networkwalks program. The practical covers reconnaissance, footprinting, and network scanning using Kali Linux tools.
+- **Name:** Faizan Shaikh
+- **Program:** Cybersecurity
+- **Batch:** B084 – Networkwalks
+- **Week:** 02
+- **Date:** 12 November 2026
 
-## Phases Covered
+---
+
+## 📌 Project Overview
+
+This repository contains my Week 2 cybersecurity practical activities focused on **Reconnaissance, Footprinting, Information Gathering, and Network Scanning**.
+
+I worked with different Kali Linux tools and security utilities to understand how publicly available information is collected and how network hosts and services are identified.
+
+## 🎯 Phases Covered
 
 | Phase | Description |
 |---|---|
-| Phase 1 | Reconnaissance & Footprinting – Kali Linux Tools, GHDB, Maltego, theHarvester |
-| Phase 2 | Scanning & Network Discovery – Zenmap |
+| 🔎 Phase 1 | Reconnaissance & Footprinting |
+| 🌐 Phase 2 | Scanning & Network Discovery |
 
-## Tools Used
+---
 
-### 1. Kali Linux Tools
+## 🛠️ Practical Activities
+
+### 🔹 W2-PM1: Footprinting with Multiple Kali Tools
+
+Used six different tools to perform basic footprinting and information gathering on the authorized target.
+
+**Tools Used:**
 - WHOIS
 - WhatWeb
-- nslookup
-- curl
+- NSLookup
+- CURL
 - Wafw00f
 - DNSRecon
 
-### 2. Maltego
-Used for visual link analysis to identify and understand relationships between different entities.
+**Objective:** Understand domain information, DNS records, website technologies, and HTTP responses.
 
-### 3. theHarvester
-Used to collect publicly available information such as email addresses, hostnames, and subdomains.
+### 🔹 W2-PM2: GHDB-Based Footprinting
 
-### 4. Zenmap – Network Scanning
+Explored Google Hacking Database (GHDB) to understand how search operators can identify publicly indexed information.
 
-**Authorized Target / Subnet:** `10.34.170.0/24`
+**Objective:** Learn about search-engine-based information discovery and potential information exposure.
 
-**Scan Profile:** Quick Scan
+### 🔹 W2-PM3: Maltego-Based Footprinting
 
-**Command Used:**
-```bash
-nmap -T4 -F 10.34.170.0/24
-```
+Used Maltego for visual link analysis and to understand relationships between different entities.
 
-**Live Hosts Found:** 2
+**Objective:** Visualize information and connections collected during reconnaissance.
+
+### 🔹 W2-PM4: theHarvester-Based Footprinting
+
+Used theHarvester to collect publicly available information associated with the authorized domain.
+
+**Objective:** Understand how email addresses, hostnames, and subdomain information can be collected.
+
+### 🔹 W2-PM5: Zenmap-Based Network Scanning
+
+Used Zenmap (Nmap GUI) to perform network discovery and identify live hosts, open ports, and services.
+
+**Scan Details:**
+
+| Parameter | Result |
+|---|---|
+| Target / Subnet | `10.34.170.0/24` |
+| Scan Profile | Quick Scan |
+| Live Hosts | 2 |
+| Total IPs Scanned | 256 |
+| Scan Duration | 9.84 seconds |
+
+**Discovered Hosts:**
 
 | IP Address | Open Ports / Services |
 |---|---|
-| 10.34.170.40 | 21 FTP, 80 HTTP, 135 MSRPC, 139 NetBIOS-SSN, 445 Microsoft-DS, 5432 PostgreSQL, 8000 HTTP-ALT |
-| 10.34.170.215 | 53 DNS |
+| `10.34.170.40` | 21 FTP, 80 HTTP, 135 MSRPC, 139 NetBIOS-SSN, 445 Microsoft-DS, 5432 PostgreSQL, 8000 HTTP-ALT |
+| `10.34.170.215` | 53 DNS |
 
-**Scan Summary:**
-- Total IP addresses scanned: 256
-- Live hosts: 2
-- Scan duration: 9.84 seconds
-- Nmap version: 7.80
+---
 
-## Screenshots
+## 📸 Practical Screenshots
 
-Add your practical screenshots in this section.
+### 1️⃣ W2-PM1 – Multiple Kali Tools
+Add screenshots showing WHOIS, WhatWeb, NSLookup, CURL, Wafw00f, and DNSRecon results.
 
-### Kali Linux Setup
-![Kali Linux Setup](screenshots/Kali_Installation.png)
+### 2️⃣ W2-PM2 – GHDB Footprinting
+Add screenshots showing your GHDB search activity and observations.
 
-### Footprinting with Kali Tools
-![Footprinting](screenshots/Footprinting.png)
+### 3️⃣ W2-PM3 – Maltego
+Add your completed Maltego graph screenshot.
 
-### Maltego
-![Maltego Graph](screenshots/Maltego.png)
+### 4️⃣ W2-PM4 – theHarvester
+Add screenshots showing theHarvester commands and collected results.
 
-### theHarvester
-![theHarvester](screenshots/theHarvester.png)
+### 5️⃣ W2-PM5 – Zenmap
+Add your network scanning results and discovered hosts screenshot.
 
-### Zenmap Network Scan
-![Zenmap Scan](screenshots/Zenmap_Quick_Scan.png)
+---
 
-## Learning Outcomes
+## 📚 Learning Outcomes
 
-- Practised reconnaissance and footprinting using Kali Linux.
-- Learned to collect publicly available information.
-- Performed visual link analysis using Maltego.
-- Used theHarvester for information gathering.
-- Performed network scanning using Zenmap.
-- Identified live hosts, open ports, and services.
+- Learned different footprinting techniques.
+- Practised information gathering using Kali Linux tools.
+- Explored Google Hacking Database (GHDB).
+- Performed visual reconnaissance using Maltego.
+- Collected public information using theHarvester.
+- Identified live hosts, open ports, and services using Zenmap.
+- Understood the importance of authorized security testing.
 
-## Disclaimer
+---
 
-All activities were performed for educational purposes in an authorized lab environment. Scanning and testing should only be conducted on systems and networks where permission has been granted.
+## ⚠️ Disclaimer
 
-## Author
+All activities were performed for educational purposes in an authorized lab environment. Testing should only be conducted on systems and networks where proper permission has been granted.
 
-**Faizan Shaikh**  
-Cybersecurity Professional – B084
+---
 
-**LinkedIn:**       www.linkedin.com/in/faizan-shaikh-099803378
+## 👨‍💻 Connect With Me
+
+**Faizan Shaikh**
+
+Cybersecurity Learner | VAPT | SOC Analyst
+
+🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/faizan-shaikh-099803378/)
+
+---
+
+<p align="center">
+  <b>🚀 Keep Learning | Keep Practising | Keep Securing 🚀</b>
+</p>
