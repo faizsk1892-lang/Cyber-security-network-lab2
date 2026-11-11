@@ -92,4 +92,4 @@ All activities were performed for educational purposes in an authorized lab envi
 **Faizan Shaikh**  
 Cybersecurity Professional – B084
 
-**LinkedIn:** https://www.linkedin.com/in/waqaskarim/
+**LinkedIn:**       www.linkedin.com/in/faizan-shaikh-099803378
