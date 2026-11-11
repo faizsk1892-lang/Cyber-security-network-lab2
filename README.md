@@ -97,7 +97,7 @@ Used Zenmap (Nmap GUI) to perform network discovery and identify live hosts, ope
 ![Kali Terminal](maltigo.png)
 
 ### 4️⃣ W2-PM4 – theHarvester
-![Kali Terminal](harvester.png)
+![Kali Terminal](Harvester.png)
 ### 5️⃣ W2-PM5 – Zenmap
 ![Kali Terminal](zenmap.png)
 
